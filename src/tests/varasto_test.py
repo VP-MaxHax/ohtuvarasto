@@ -67,9 +67,9 @@ class TestVarasto(unittest.TestCase):
     def test_varaston_saldon_oikea_tulostus_muoto(self):
         self.varasto.lisaa_varastoon(3)
 
-        value1 = f"saldo = {self.varasto.saldo},"
+        value1 = f"saldo = {self.varasto.saldo}, "
         value2 = f"vielä tilaa {self.varasto.paljonko_mahtuu()}"
-        
+
         self.assertEqual(str(self.varasto), value1+value2)
 
     def test_varaston_koko_nolla(self):

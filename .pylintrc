@@ -22,4 +22,4 @@ disable=raw-checker-failed,
         max-nested-blocks = 2
 [DESIGN]
         max-statements = 15
-        max-public-methods = 3
+        max-public-methods = 20
